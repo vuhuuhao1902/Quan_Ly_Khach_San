@@ -1,0 +1,80 @@
+﻿@{
+    Layout = "_AccountDetail";
+}
+
+@model TaiKhoan
+
+<div class="container">
+    <!--dasboard-wrap-->
+    <div class="dasboard-wrap fl-wrap">
+        <!-- dashboard-content-->
+        <div class="dashboard-content fl-wrap">
+            <form method="post" action="/accountdetail/capnhattaikhoan" enctype="multipart/form-data">
+                <input type="hidden" asp-for="@Model.Id" />
+                <div class="box-widget-item-header">
+                    <h3> Hồ sơ của bạn</h3>
+                </div>
+                <!-- profile-edit-container-->
+                <div class="profile-edit-container">
+                    <div class="custom-form">
+                        <label>Tên của bạn <i class="far fa-user"></i></label>
+                        <input type="text" placeholder="Nguyễn Văn A" value="@Model.HoTen" name="hoTen" />
+                        <label> Ngày sinh <i class="far fa-calendar"></i>  </label>
+                        <input type="date" style="float: left;
+                                                                    border: 1px solid #eee;
+                                                                    background: #F7F9FB;
+                                                                    width: 100%;
+                                                                    padding: 14px 20px 14px 45px;
+                                                                    border-radius: 6px;
+                                                                    color: #666;
+                                                                    font-size: 13px;
+                                                                    -webkit-appearance: none;" placeholder="31/12/2024" asp-for="@Model.NgaySinh" name="ngaySinh" />
+                        <label>Địa chỉ email<i class="far fa-envelope"></i>  </label>
+                        <input type="text" placeholder="nguyenva@gmail.com" value="@Model.Email" name="email" />
+                        <label>Số điện thoại<i class="far fa-phone"></i>  </label>
+                        <input type="text" placeholder="(+84)379678451" value="@Model.SoDienThoai" name="sdt" />
+                        <label> Địa chỉ <i class="fas fa-map-marker"></i>  </label>
+                        <input type="text" placeholder="Quan Hoa Cầu Giấy Hà Nội" value="@Model.DiaChi" name="diaChi" />
+                        <div class="row">
+                            <div class="col-sm-9">
+                                <label> Ghi chú</label>
+                                <textarea cols="40" rows="3" placeholder="Về tôi" name="ghiChu"></textarea>
+                            </div>
+                            <div class="col-sm-3">
+                                <label>Thay đổi ảnh đại diện</label>
+                                <div class="add-list-media-wrap">
+                                    <div class="fu-text">
+                                        <span><i class="far fa-cloud-upload-alt"></i> Bấm vào đây hoặc thả tập tin để tải lên</span>
+                                        <div class="photoUpload-files fl-wrap"></div>
+                                    </div>
+                                    <input type="file" class="upload" name="anh">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- profile-edit-container end-->
+                <div class="box-widget-item-header mat-top">
+                    <h3>Mạng xã hội của bạn</h3>
+                </div>
+                <!-- profile-edit-container-->
+                <div class="profile-edit-container">
+                    <div class="custom-form">
+                        <label>Facebook <i class="fab fa-facebook"></i></label>
+                        <input type="text" placeholder="https://www.facebook.com/" value="@Model.Facebook" name="facebook" />
+                        <label>Twitter<i class="fab fa-twitter"></i>  </label>
+                        <input type="text" placeholder="https://twitter.com/" value="@Model.Twitter" name="twitter" />
+                        <label> Instagram <i class="fab fa-instagram"></i>  </label>
+                        <input type="text" placeholder="https://www.instagram.com/" value="@Model.Instagram" name="instagram" />
+                    </div>
+                </div>
+                <!-- profile-edit-container end-->
+                <button type="submit" class="btn    color2-bg  float-btn" style="border: 1px solid #F9B90F;">Lưu thay đổi<i class="fal fa-save"></i></button>
+                @*<input type="submit" class="btn    color2-bg  float-btn" style="border: 1px solid #F9B90F;" value="Lưu thay đổi" />*@
+            </form>
+
+        </div>
+        <!-- dashboard-list-box end-->
+    </div>
+    <!-- dasboard-wrap end-->
+</div>

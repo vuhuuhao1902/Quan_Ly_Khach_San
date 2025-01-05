@@ -1,0 +1,169 @@
+is_global = true
+build_property.TargetFramework = net7.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = DATN_LUNA_HOTEL
+build_property.RootNamespace = DATN_LUNA_HOTEL
+build_property.ProjectDir = D:\DATN_VuHuuHao_201200112_CNTT6_K61\DATN_LUNA_HOTEL\DATN_LUNA_HOTEL\
+build_property.RazorLangVersion = 7.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = true
+build_property.MSBuildProjectDirectory = D:\DATN_VuHuuHao_201200112_CNTT6_K61\DATN_LUNA_HOTEL\DATN_LUNA_HOTEL
+build_property._RazorSourceGeneratorDebug = 
+
+[D:/DATN_VuHuuHao_201200112_CNTT6_K61/DATN_LUNA_HOTEL/DATN_LUNA_HOTEL/Areas/Admin/Views/Account/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWNjb3VudFxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DATN_VuHuuHao_201200112_CNTT6_K61/DATN_LUNA_HOTEL/DATN_LUNA_HOTEL/Areas/Admin/Views/Admin/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DATN_VuHuuHao_201200112_CNTT6_K61/DATN_LUNA_HOTEL/DATN_LUNA_HOTEL/Areas/Admin/Views/KhachSan/DanhMucKhachSan.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcS2hhY2hTYW5cRGFuaE11Y0toYWNoU2FuLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DATN_VuHuuHao_201200112_CNTT6_K61/DATN_LUNA_HOTEL/DATN_LUNA_HOTEL/Areas/Admin/Views/KhachSan/FormCreateUpdate.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcS2hhY2hTYW5cRm9ybUNyZWF0ZVVwZGF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DATN_VuHuuHao_201200112_CNTT6_K61/DATN_LUNA_HOTEL/DATN_LUNA_HOTEL/Areas/Admin/Views/Order/DanhMucGiaoDich.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcT3JkZXJcRGFuaE11Y0dpYW9EaWNoLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DATN_VuHuuHao_201200112_CNTT6_K61/DATN_LUNA_HOTEL/DATN_LUNA_HOTEL/Areas/Admin/Views/Order/Invoice.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcT3JkZXJcSW52b2ljZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DATN_VuHuuHao_201200112_CNTT6_K61/DATN_LUNA_HOTEL/DATN_LUNA_HOTEL/Areas/Admin/Views/Phong/DanhMucPhong.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUGhvbmdcRGFuaE11Y1Bob25nLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DATN_VuHuuHao_201200112_CNTT6_K61/DATN_LUNA_HOTEL/DATN_LUNA_HOTEL/Areas/Admin/Views/Phong/FormCreateUpdate.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUGhvbmdcRm9ybUNyZWF0ZVVwZGF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DATN_VuHuuHao_201200112_CNTT6_K61/DATN_LUNA_HOTEL/DATN_LUNA_HOTEL/Areas/Admin/Views/Shared/_LayoutAdmin.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXF9MYXlvdXRBZG1pbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DATN_VuHuuHao_201200112_CNTT6_K61/DATN_LUNA_HOTEL/DATN_LUNA_HOTEL/Areas/Admin/Views/TaiKhoan/DanhMucTaiKhoan.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcVGFpS2hvYW5cRGFuaE11Y1RhaUtob2FuLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DATN_VuHuuHao_201200112_CNTT6_K61/DATN_LUNA_HOTEL/DATN_LUNA_HOTEL/Areas/Admin/Views/TaiKhoan/FormCreateUpdate.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcVGFpS2hvYW5cRm9ybUNyZWF0ZVVwZGF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DATN_VuHuuHao_201200112_CNTT6_K61/DATN_LUNA_HOTEL/DATN_LUNA_HOTEL/Areas/Admin/Views/TaiKhoan/PhanQuyenTaiKhoan.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcVGFpS2hvYW5cUGhhblF1eWVuVGFpS2hvYW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DATN_VuHuuHao_201200112_CNTT6_K61/DATN_LUNA_HOTEL/DATN_LUNA_HOTEL/Areas/Admin/Views/TienNghi/DanhMucTienNghi.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcVGllbk5naGlcRGFuaE11Y1RpZW5OZ2hpLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DATN_VuHuuHao_201200112_CNTT6_K61/DATN_LUNA_HOTEL/DATN_LUNA_HOTEL/Areas/Admin/Views/TienNghi/FormCreateUpdate.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcVGllbk5naGlcRm9ybUNyZWF0ZVVwZGF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DATN_VuHuuHao_201200112_CNTT6_K61/DATN_LUNA_HOTEL/DATN_LUNA_HOTEL/Views/AccountDetail/DoiMatKhau.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudERldGFpbFxEb2lNYXRLaGF1LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DATN_VuHuuHao_201200112_CNTT6_K61/DATN_LUNA_HOTEL/DATN_LUNA_HOTEL/Views/AccountDetail/LichSuDatPhong.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudERldGFpbFxMaWNoU3VEYXRQaG9uZy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DATN_VuHuuHao_201200112_CNTT6_K61/DATN_LUNA_HOTEL/DATN_LUNA_HOTEL/Views/AccountDetail/ThongTinTaiKhoan.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudERldGFpbFxUaG9uZ1RpblRhaUtob2FuLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DATN_VuHuuHao_201200112_CNTT6_K61/DATN_LUNA_HOTEL/DATN_LUNA_HOTEL/Views/Account/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DATN_VuHuuHao_201200112_CNTT6_K61/DATN_LUNA_HOTEL/DATN_LUNA_HOTEL/Views/Account/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DATN_VuHuuHao_201200112_CNTT6_K61/DATN_LUNA_HOTEL/DATN_LUNA_HOTEL/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DATN_VuHuuHao_201200112_CNTT6_K61/DATN_LUNA_HOTEL/DATN_LUNA_HOTEL/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DATN_VuHuuHao_201200112_CNTT6_K61/DATN_LUNA_HOTEL/DATN_LUNA_HOTEL/Views/Phong/Checkout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGhvbmdcQ2hlY2tvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DATN_VuHuuHao_201200112_CNTT6_K61/DATN_LUNA_HOTEL/DATN_LUNA_HOTEL/Views/Phong/ChiTietKhachSan.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGhvbmdcQ2hpVGlldEtoYWNoU2FuLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DATN_VuHuuHao_201200112_CNTT6_K61/DATN_LUNA_HOTEL/DATN_LUNA_HOTEL/Views/Phong/ChiTietPhong.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGhvbmdcQ2hpVGlldFBob25nLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DATN_VuHuuHao_201200112_CNTT6_K61/DATN_LUNA_HOTEL/DATN_LUNA_HOTEL/Views/Phong/PaymentFail.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGhvbmdcUGF5bWVudEZhaWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DATN_VuHuuHao_201200112_CNTT6_K61/DATN_LUNA_HOTEL/DATN_LUNA_HOTEL/Views/Phong/PaymentSuccess.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGhvbmdcUGF5bWVudFN1Y2Nlc3MuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DATN_VuHuuHao_201200112_CNTT6_K61/DATN_LUNA_HOTEL/DATN_LUNA_HOTEL/Views/Phong/TimKiemPhong.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGhvbmdcVGltS2llbVBob25nLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DATN_VuHuuHao_201200112_CNTT6_K61/DATN_LUNA_HOTEL/DATN_LUNA_HOTEL/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DATN_VuHuuHao_201200112_CNTT6_K61/DATN_LUNA_HOTEL/DATN_LUNA_HOTEL/Views/Shared/_AccountDetail.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9BY2NvdW50RGV0YWlsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DATN_VuHuuHao_201200112_CNTT6_K61/DATN_LUNA_HOTEL/DATN_LUNA_HOTEL/Views/Shared/_HotelList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Ib3RlbExpc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DATN_VuHuuHao_201200112_CNTT6_K61/DATN_LUNA_HOTEL/DATN_LUNA_HOTEL/Views/Shared/_PartialFooter.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9QYXJ0aWFsRm9vdGVyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DATN_VuHuuHao_201200112_CNTT6_K61/DATN_LUNA_HOTEL/DATN_LUNA_HOTEL/Views/Shared/_PartialHeader.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9QYXJ0aWFsSGVhZGVyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DATN_VuHuuHao_201200112_CNTT6_K61/DATN_LUNA_HOTEL/DATN_LUNA_HOTEL/Views/Shared/_PartialKhachSan.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9QYXJ0aWFsS2hhY2hTYW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DATN_VuHuuHao_201200112_CNTT6_K61/DATN_LUNA_HOTEL/DATN_LUNA_HOTEL/Views/Shared/_TrangChu.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9UcmFuZ0NodS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DATN_VuHuuHao_201200112_CNTT6_K61/DATN_LUNA_HOTEL/DATN_LUNA_HOTEL/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DATN_VuHuuHao_201200112_CNTT6_K61/DATN_LUNA_HOTEL/DATN_LUNA_HOTEL/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DATN_VuHuuHao_201200112_CNTT6_K61/DATN_LUNA_HOTEL/DATN_LUNA_HOTEL/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DATN_VuHuuHao_201200112_CNTT6_K61/DATN_LUNA_HOTEL/DATN_LUNA_HOTEL/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-go2a0i45ly

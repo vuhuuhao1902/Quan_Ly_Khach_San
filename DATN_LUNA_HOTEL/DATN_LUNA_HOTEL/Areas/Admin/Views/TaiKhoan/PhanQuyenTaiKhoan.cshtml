@@ -1,0 +1,74 @@
+﻿@{
+    Layout = "~/Areas/Admin/Views/Shared/_LayoutAdmin.cshtml";
+}
+@using DATN_LUNA_HOTEL.Models
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+@model DATN_LUNA_HOTEL.Models.TaiKhoan
+
+@functions {
+    QuanLyKhachSanContext db = new QuanLyKhachSanContext();
+    public List<Quyen> getAllLoaiUser()
+    {
+        var listLoaiUser = (from lu in db.Quyens
+                            select lu).ToList();
+        return listLoaiUser;
+    }
+}
+
+
+<div class="row">
+    <div class="col-md-4">
+        <form method="post" action="@ViewBag.action">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="Id" />
+            <div class="form-group">
+                <h2 class="control-label">Phân quyền</h2>
+
+                @{
+                    List<Quyen> listAll = getAllLoaiUser();
+                }
+
+                @if (ViewBag.QuyenDaChon != null)
+                {
+                    @foreach (var item in listAll)
+                    {
+                        <div class="form-check">
+                            @{
+                                var isSelected = false;
+                            }
+
+                            @foreach (var loai in ViewBag.QuyenDaChon)
+                            {
+                                @*lắp tới khi tim được kích thước mà sản phẩm đó có.*@
+                                if (loai == item.TenQuyen)
+                                {
+                                    isSelected = true;
+                                    break;
+                                }
+                            }
+                            <input type="checkbox" @(isSelected ? "checked" : "") class="form-check-input" name="loaiuser" value="@item.Id" id="@item.TenQuyen">
+                            <label class="form-check-label" for="@item.TenQuyen">@item.TenQuyen</label>
+                        </div>
+                    }
+                }
+                else
+                {
+                    @foreach (var item in listAll)
+                    {
+                        <input type="checkbox" class="form-check-input" name="kichThuocs" value="@item.Id" id="@item.TenQuyen">
+                        <label class="form-check-label" for="@item.TenQuyen">@item.TenQuyen</label>
+                    }
+                }
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Lưu" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col text-center">
+        <a href="/admin/taikhoan/danhmuctaikhoan" class="btn btn-secondary" style="float: left;">Trở về trang chủ</a>
+    </div>
+</div>

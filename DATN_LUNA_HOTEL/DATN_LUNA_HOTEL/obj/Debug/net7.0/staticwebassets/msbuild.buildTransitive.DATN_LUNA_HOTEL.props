@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\DATN_LUNA_HOTEL.props" />
+</Project>
